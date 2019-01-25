@@ -1,0 +1,4 @@
+#All files protected
+.env
+credentials.json
+token.yaml
