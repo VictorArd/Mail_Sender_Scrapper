@@ -11,7 +11,7 @@ class Mail
   msg.date = Time.now
   msg.subject = 'ceci est un test'
   msg.body = Text.new('coucou!', 'plain', 'charset' => 'us-ascii')
-  msg.from = {'coucou@gmail.com' => 'Coucou Man'}
+  msg.from = {'codsv56@gmail.com' => 'Coucou Man'}
   msg.to   = {
       'josé@valdoise.fr' => nil,
   }
